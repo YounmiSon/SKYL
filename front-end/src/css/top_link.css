@@ -1,0 +1,33 @@
+.top-link-container {
+  width: 100%;
+  height: 41px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.top-link-wrap {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-link-left ul {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.top-link-right ul {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.top-link-bar {
+  width: 1px;
+  height: 10px;
+  margin: 0px 12px;
+  background-color: rgb(217, 217, 217);
+}

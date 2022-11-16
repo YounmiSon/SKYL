@@ -1,17 +1,9 @@
 import "./App.css";
-import {
-  Main,
-  Business,
-  Introduce,
-  Movein,
-  Notice,
-  Open,
-  Promotion,
-} from "./page";
+import { Main, Business, Introduce, Movein, Notice, Open, Promotion } from "./page";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
-import { Header, Toplink } from "./components";
+import { Footer, Header, Toplink } from "./components";
 
 function App() {
   return (
@@ -27,6 +19,7 @@ function App() {
         <Route path="/open" element={<Open />}></Route>
         <Route path="/promotion" element={<Promotion />}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
