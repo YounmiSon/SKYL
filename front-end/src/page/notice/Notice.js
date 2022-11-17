@@ -1,7 +1,7 @@
 import React from "react";
 
 const Notice = () => {
-  return <div>Notice</div>;
+  return <div>branch test</div>;
 };
 
 export default Notice;
